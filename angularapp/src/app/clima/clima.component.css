@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500&family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
+
+h1{
+    font-family: Times, Times New Roman, serif;
+    text-align: center
+}
+#imagem{
+    height: 64px;
+    width: 64px;
+}
+#botao{
+    cursor: pointer;
+    border-radius: 6px;
+    border-color: rgb(87, 83, 83);
+    border-style: solid;
+}
+
+#divclima{
+    display: none
+}
+#temperatura{
+   
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 40px;
+    text-align: center
+}
+
+#data{
+    font-family: FreeMono, monospace;
+    text-align: center
+}
+#local{
+    font-family: Times, Times New Roman, serif;
+}
+#padrao{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 22px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}

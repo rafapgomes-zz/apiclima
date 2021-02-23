@@ -1,0 +1,34 @@
+
+    <h1>Bem vindo ao site de Previsão do Tempo</h1>
+
+    <p> Digite uma cidade e clique em "Prever Tempo" para saber como está o tempo nesse exato momento</p>
+
+    <input type="text" [(ngModel)]="cidade" placeholder="Informe o nome da cidade">
+    <button id="botao" (click)=previsao()>Prever Tempo</button>
+
+    <div id = "divclima" [ngStyle]="{'display': display}">
+            <p id = "local"> {{local}} </p>   
+             <div id= 'imagem' [ngStyle]="{'background': imagem}" ></div>
+            
+
+
+            <p id= "temperatura"> {{temperatura}}ºC </p>
+            <p id='padrao'>Humidade : {{humidade}} </p>
+            <p id='padrao'>Velocidade do vento : {{vento}} KM/h {{dirvento}} </p>
+        
+            <p id = "data"> Data e Hora local: {{data}} </p>
+            
+            </div>
+   
+         
+                  
+                
+                    
+        	
+    
+
+     
+     
+
+
+     
