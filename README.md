@@ -1,6 +1,6 @@
 # apiclima
 Projeto feito em Angular.
-Consiste de uma página WEB para verificar dados climaticos de diversas cidades, que são acessados atraves da API Weather Stack. 
+Consiste de uma página web para verificar dados climaticos de diversas cidades, que são acessados atraves da API Weather Stack. 
 
 Toda a comunicação com a API foi feita usando bibliotecas Angular e TypeScript. 
 
